@@ -229,7 +229,7 @@ a {
 .card-section {
   display: flex;
   align-items: center;
-  flex-direction: column;;
+  flex-direction: column;
   position: relative;
 }
 
@@ -324,12 +324,13 @@ a {
 .feed-friend-items {
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
-  padding: 40px 50px;
+  padding: 50px 70px;
   border-radius: 20px;
 }
 
 .feed-friend-item {
   color: #333B41;
+  padding-bottom: 40px;
 }
 
 .feed-friend-item h2 {
@@ -350,4 +351,53 @@ a {
   font-size: 36px;
   font-weight: 400;
   line-height: 130%;
+  padding-bottom: 50px;
+}
+
+/* Feed friend cards */
+.feed-friend-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-friend-cards__items {
+  display: flex;
+  align-items: center;
+}
+
+.feed-friend-cards__item {
+  display: flex;
+  align-items: center;
+}
+
+.feed-friend-cards__pic {
+  width: 168px;
+  height: 244px;
+}
+
+.feed-friend-cards__pic-container {
+  position: relative;
+  height: 168px;
+  width: 168px;
+  background-color: #fff;
+  border: 1px solid orange;
+}
+
+.feed-friend-cards__pic-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.feed-friend-cards__pic-info {
+  padding-top: 30px;
+}
+
+.feed-friend-card__arrow {
+  position: relative;
+  left: 36px;
+  margin: 30px;
+  transform: translate(-50%, -50%);
 }
