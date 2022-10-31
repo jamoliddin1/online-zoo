@@ -23,7 +23,12 @@ a {
 }
 
 .space {
-  margin-bottom: 100px;
+  /* padding-bottom: 100px; */
+  padding: 100px 0;
+}
+
+.over-hidden {
+  overflow: hidden;
 }
 
 .header-container {
@@ -32,8 +37,8 @@ a {
 }
 
 .container {
-  /* display: flex; */
   max-width: 1160px;
+  margin: 0 auto;
 }
 
 .list-style {
@@ -172,7 +177,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-top: 86px;
   padding-bottom: 100px;
 }
@@ -235,9 +240,10 @@ a {
   justify-content: center;
 }
 
-.story {
+.story-container {
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -263,7 +269,9 @@ a {
 
 .story--flower  {
   position: absolute;
-  right: 0;
+  right: -20px;
+  bottom: -80px;
+  transform: translate(100%, 0);
 }
 
 /* Cards */
@@ -499,6 +507,10 @@ a {
 
 .footer-items {
   display: flex;
+}
+
+.footer-nav {
+  align-self: flex-end;
 }
 
 .footer-btn {
