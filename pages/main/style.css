@@ -62,6 +62,34 @@ a {
   padding-bottom: 50px;
 }
 
+.btn-1 {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  display: inline-block;
+  width: 298px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-2 {
+  border-radius: 5px;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  background: #E47209;
+ }
+
+ .btn-1:active,
+ .btn-2:active {
+  background-color: #4B9200;
+ }
+
 /* Header */
 .main-header {
   height: 80px;
@@ -121,14 +149,19 @@ a {
 
 .navbar-link {
   padding: 10px;
+  transition: color .2s;
 }
 
 .navbar-link:not(:last-child) {
   margin-right: 40px;
 }
 
-.navbar-link a:active {
+.navbar-link a:hover {
   color: orange;
+}
+
+.navbar-links:hover .active {
+  color: #fff;
 }
 
 
@@ -175,35 +208,6 @@ a {
 .circle-content__favorite {
   color: #FFEE2E;
 }
-
-.btn-1 {
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 25px;
-  display: inline-block;
-  padding: 20px 90px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 140%;
-  margin-top: 50px;
-  text-transform: uppercase;
-}
-
-.btn-2 {
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 5px;
-  display: inline-block;
-  padding: 20px 90px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 140%;
-  margin-top: 50px;
-  text-transform: uppercase;
-}
-
-.btn-1:hover,
-.btn-2:hover {
-  background: #E47209;
- }
 
 /* Info */
 .outer-container {
@@ -265,6 +269,7 @@ a {
 
 .arrow:hover {
   cursor: pointer;
+  background: #E47209;
 }
 
 .cards {
@@ -305,16 +310,7 @@ a {
 }
 
 .card-btn {
-  display: inline-block;
-  font-weight: 500;
-  margin: 60px;
-  line-height: 140%;
   background-color: #FE9013;
-  border-radius: 25px;
-  padding: 20px 90px;
-  font-size: 16px;
-  text-transform: uppercase;
-  transition: all .2s;
 }
 
 .card-btn:hover {
@@ -363,6 +359,12 @@ a {
 .emergency-text {
   border-bottom: 1px solid #FE9013;
   padding-bottom: 1px;
+  color: #333B41;
+  transition: border .2s;
+}
+
+.emergency-text:hover {
+  border: none;
 }
 
 /* Feed friend cards */
@@ -486,6 +488,7 @@ a {
 
 .social-icon {
   margin-bottom: 10px;
+  list-style: none;
 }
 
 .social-icon a {
