@@ -173,36 +173,55 @@ a {
   background-size: cover;
   background-position: center;
   margin-bottom: 100px;
+  padding-top: 86px;
+  padding-bottom: 100px;
 }
 
 .main-banner__container  {
   display: flex;
-  max-width: 1160px;
+  width: 1160px;
+  /* max-width: 1160px; */
+  align-items: center;
+  margin: 0 auto;
   justify-content: flex-end;
 }
 
 .circle {
-  position: relative;
+  /* position: relative; */
   width: 465px;
   height: 465px;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 50%;
-  text-align: center;
-  /*margin-right: 80px;*/
+  position: absolute;
+  display: inline-block;
+  left: -73px;
+  bottom: 10px;
+  z-index: -1;
+  /* text-align: center;
+  margin-top: 20px; */
+}
+
+.favourite {
+  color: #FFEE2E;
 }
 
 .circle-content {
-  position: absolute;
+  /* position: absolute;
   top: 80px;
-  left: 55px;
+  left: 55px; */
+  width: 500px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .circle-content__text {
-  text-transform: uppercase;
+  position: relative;
   font-size: 106.5px;
-  width: 500.31px;
-  color: #fff;
   line-height: 75%;
+  z-index: 10;
+  margin-bottom: 50px;
+  /* width: 500.31px; */
 }
 
 .circle-content__favorite {
