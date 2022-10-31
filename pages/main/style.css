@@ -149,7 +149,7 @@ a {
   color: #FFEE2E;
 }
 
-.circle-btn {
+.btn-1 {
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 25px;
   display: inline-block;
@@ -159,6 +159,10 @@ a {
   line-height: 140%;
   margin-top: 50px;
   text-transform: uppercase;
+}
+
+.btn-1:hover {
+ background: #E47209;
 }
 
 /* Info */
@@ -217,8 +221,13 @@ a {
 /* Cards */
 .card-section {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;;
   position: relative;
+}
+
+.outer-card {
+  display: flex;
 }
 
 .arrow {
@@ -272,13 +281,18 @@ a {
 .card-btn {
   display: inline-block;
   font-weight: 500;
-  margin-top: 20px;
+  margin: 60px;
   line-height: 140%;
   background-color: #FE9013;
   border-radius: 25px;
   padding: 20px 90px;
   font-size: 16px;
   text-transform: uppercase;
+  transition: all .2s;
+}
+
+.card-btn:hover {
+  background-color: #E47209;
 }
 
 .card-left-pic {
