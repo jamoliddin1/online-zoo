@@ -1,0 +1,283 @@
+/* Main styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.space {
+  /* padding-bottom: 100px; */
+  padding: 100px 0;
+}
+
+.over-hidden {
+  overflow: hidden;
+}
+
+.header-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+
+.outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.list-style {
+  display: flex;
+  list-style: none;
+}
+
+.text-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  margin: -8px 0 30px 0;
+}
+
+.text-sub {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 40px 0;
+}
+
+.text-sub--2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-bottom: 50px;
+}
+
+.btn-1 {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  display: inline-block;
+  width: 298px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-2 {
+  border-radius: 5px;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  background: #E47209;
+ }
+
+ .btn-1:active,
+ .btn-2:active {
+  background-color: #4B9200;
+ }
+
+ /* Header */
+.main-header {
+  height: 80px;
+  background: #000000;
+  backdrop-filter: blur(2px)
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 80px;
+}
+
+.navbar__left-side {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo-text {
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  width: 82px;
+  text-align: center;
+  margin-right: 70px;
+  padding: 2px 5px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.logo-text a:link,
+.logo-text a:visited {
+  color: #fff
+}
+
+.logo-bamboo {
+  position: relative;
+}
+
+.logo-bamboo::before {
+  content: url("../../assets/images/logo.png");
+  position: absolute;
+  top: -2px;
+  left: -4px;
+}
+
+/* Navbar link */
+.active {
+  color: orange;
+}
+
+
+.navbar-link {
+  padding: 10px;
+  transition: color .2s;
+}
+
+.navbar-link:not(:last-child) {
+  margin-right: 40px;
+}
+
+.navbar-link a:hover {
+  color: orange;
+}
+
+.navbar-links:hover .active {
+  color: #fff;
+}
+
+.main-banner {
+  background-image: url("../../assets/images/banner.png");
+  height: 780px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  padding-top: 86px;
+  padding-bottom: 100px;
+}
+
+/* Footer */
+.main-footer {
+  height: 400px;
+  background-color: #000;
+}
+
+.footer-items {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  align-self: flex-end;
+}
+
+.footer-form-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  padding-bottom: 20px;
+}
+
+.footer-btn {
+  margin-bottom: 40px;
+}
+
+.social-icon {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.social-icon a {
+  width: 26px;
+  height: 26px;
+  background: rgba(196, 196, 196, 0.5);
+  text-align: center;
+  line-height: 26px;
+  border-radius: 50%;
+}
+
+.social-text {
+  color: #fff;
+}
+
+.footer-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-input input[type="email"] {
+  width: 228px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #f9804b;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-input ::placeholder {
+  color: #BDBDBD;
+}
+
+.footer-input button {
+  cursor: pointer;
+  background-color: #f1f3f2;
+  color: #4B9200;
+  font-size: 16px;
+  border: 1px solid #333b41;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.footer-right {
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  align-self: flex-end;
+}
+
+.footer-rights p {
+  line-height: 130%;
+  font-weight: 100;
+}
