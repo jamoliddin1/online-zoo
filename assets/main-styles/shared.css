@@ -215,23 +215,45 @@ a {
   margin-bottom: 40px;
 }
 
-.social-icon {
+.social-icon__item {
   margin-bottom: 10px;
   list-style: none;
 }
 
-.social-icon a {
-  width: 26px;
-  height: 26px;
-  background: rgba(196, 196, 196, 0.5);
-  text-align: center;
-  line-height: 26px;
-  border-radius: 50%;
+.social-icon__item a {
+  display: flex;
+  align-items: center;
 }
 
+.social-icon {
+  width: 26px;
+  height: 26px;
+  background-color: rgba(196, 196, 196, 0.5);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 26px;
+}
+
+.social-link:active .social-icon {
+  background-color: #4B9200;
+}
+
+/* .social-link:hover .social-icon {
+  background-color: #E47209;
+} */
+
 .social-text {
+  margin-left: 10px;
   color: #fff;
 }
+
+.social-link:active .social-text {
+  color: #4B9200;
+}
+
+/* .social-link:hover .social-text {
+  color: #E47209;
+} */
 
 .footer-input {
   display: flex;
@@ -259,11 +281,17 @@ a {
 .footer-input button {
   cursor: pointer;
   background-color: #f1f3f2;
-  color: #4B9200;
+  color: #000;
   font-size: 16px;
   border: 1px solid #333b41;
   border-radius: 5px;
-  padding: 10px 40px;
+  width: 129px;
+  height: 42px;
+}
+
+.footer-input button:active {
+  border: 1px solid #4B9200;
+  color: #4B9200;
 }
 
 .footer-right {
