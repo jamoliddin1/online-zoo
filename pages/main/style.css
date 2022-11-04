@@ -1,16 +1,5 @@
 
 /* Main banner */
-.main-banner {
-  background-image: url("../../assets/images/banner.png");
-  height: 780px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 50px;
-  padding-top: 86px;
-  padding-bottom: 100px;
-}
-
 .main-banner__container  {
   display: flex;
   width: 1160px;

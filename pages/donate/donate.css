@@ -1,0 +1,47 @@
+/* Feed a friend */
+.feed-friend__section {
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%);
+  padding: 50px 0 150px;
+}
+
+.feed-friend-items {
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  padding: 50px 70px;
+  border-radius: 20px;
+}
+
+.feed-friend-item {
+  color: #333B41;
+  padding-bottom: 40px;
+}
+
+.feed-friend-item h2 {
+  color: #FE9013;
+}
+
+.feed-friend__para {
+  line-height: 130%;
+  padding-bottom: 10px;
+}
+
+/* Donation white text */
+.donation-info {
+  color: #FFFFFF;
+}
+.donation-info__title {
+  font-size: 36px;
+  line-height: 130%;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+.donation-info__para {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.sec-title {
+  color: #FE9013;
+}
