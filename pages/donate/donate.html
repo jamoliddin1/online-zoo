@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f29eef3e38.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f29eef3e38.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../../assets/main-styles/shared.css">
   <link rel="stylesheet" href="./donate.css">
   <title>Online Zoo - Donate</title>
@@ -60,7 +61,7 @@
         <div class="feed-friend-item panda-donate">
           <div class="feed-friend__left center">
             <div class="feed-friend__four">
-              <img src="../../assets/images/donate-four.png" alt="amount of days donate">
+              <p class="four">4</p>
               <p class="feed-friend__left-para">Panda diet for the day.</p>
             </div>
             <img src="../../assets/images/donate-x.png" alt="x icon">
@@ -122,9 +123,24 @@
           </ul>
         </div>
 
-        <div class="feed-friend-item input-radio center">
-          <input class="input-amount" type="number" placeholder="Another amount">
-          <a class="btn-1" href="#">Feed a friend now</a>
+        <div class="feed-friend-item input-container center">
+          <div class="amount-input-container">
+            <input class="input-amount " type="number"  onKeyPress="if(this.value.length==4) return false;" placeholder="Another amount " >
+            <i class="dolar-icon fa-sharp fa-solid fa-dollar-sign"></i>
+          </div>
+          <div class="radio-input-container">
+            <div class="radio-p">
+              <input class="radio-input box-shadow" id="monthly" type="radio" name="radio-btn" >
+              <label for="monthly">Monthly</label>
+            </div>
+            <div class="radio-p">
+              <input class="radio-input box-shadow" id="once" type="radio" name="radio-btn" >
+              <label for="once">Once</label>
+            </div>
+          </div>
+
+          <a class="btn-1 donate-feed-btn" href="#">Feed a friend now</a>
+          
           <p class="share-with-friends">Share with your friends on social networks </p>
         </div>
       </div>
