@@ -62,6 +62,13 @@
   display: flex;
   align-items: center;
   margin: 60px 60px 0;
+  position: relative;
+}
+
+.feed-friend__left img {
+  position: absolute;
+  right: -20px;
+  bottom: 50%;
 }
 
 .four {
@@ -254,7 +261,7 @@ input[type=number] {
 .radio-p {
   display: flex;
   align-items: center;
-  padding: 25px;
+  padding: 30px;
 }
 
 input[type="radio"],
