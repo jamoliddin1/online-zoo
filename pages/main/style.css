@@ -233,6 +233,7 @@
   width: 168px;
   background-color: #fff;
   border: 1px solid orange;
+  border-radius: 5px;
 }
 
 .feed-friend-cards__pic-container img {
@@ -366,5 +367,62 @@
 
   .story-info {
     width: 100%;
+  }
+
+  .story--flower {
+    width: 105px;
+    height: 217px;
+    object-fit: contain;
+    top: -55px;
+    right: 45px;
+  }
+
+  /* Cards */
+  .card-left-pic {
+    object-fit: contain;
+    width: 138px;
+    height: 72px;
+    left: -45px;
+  }
+
+  .card-right-pic {
+    width: 85px;
+    height: 71px;
+    right: -20px;
+  }
+
+  .card-btn__div {
+    margin-bottom: 30px;
+  }
+
+  /* Feed a friend */
+  .feed-friend__section {
+    padding: 20px 0;
+  }
+
+  .feed-friend-items {
+    padding: 10px;
+  }
+
+  .feed-friend-item {
+    padding-bottom: 10px;
+  }
+
+  .feed-friend-item h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .feed-friend__para {
+    display: none;
+  }
+
+  .feed-friend-cards__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feed-friend-cards__pic-info {
+    padding-top: 10px;
   }
 }
