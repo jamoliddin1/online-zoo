@@ -332,4 +332,17 @@ a {
   .navbar__right-side {
     display: none;
   }
+
+  /* Main banner bg */
+  .main-banner {
+    height: 187px;
+    margin-top: -3px;
+    padding-top: 42px;
+  }
+
+  /* btn */
+  .btn-1 {
+    margin-top: 10px;
+    margin-left: -165px;
+  }
 }
