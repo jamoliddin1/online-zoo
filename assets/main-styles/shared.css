@@ -32,7 +32,7 @@ a {
 }
 
 .header-container {
-  max-width: 1160px;
+  width: 1160px;
   margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 .container {
-  max-width: 1160px;
+  width: 1160px;
   margin: 0 auto;
 }
 
@@ -307,4 +307,29 @@ a {
 .footer-rights p {
   line-height: 130%;
   font-weight: 100;
+}
+
+@media only screen and (max-width: 320px) {
+  .container,
+  .header-container {
+    width: 96%;
+  }
+  
+  /* Navigation bar */
+  .main-header,
+  .navbar {
+    height: 34px;
+  }
+
+  .logo-text {
+    border: none;
+    font-size: 12px;
+    line-height: 120%;
+    width: 47px;
+  }
+
+  .navbar-links,
+  .navbar__right-side {
+    display: none;
+  }
 }
