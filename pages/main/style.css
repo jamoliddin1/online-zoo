@@ -268,7 +268,6 @@
 
 .comment-item {
   max-width: 268px;
-  min-height: 391px;
   background: #F1F3F2;
   border-radius: 20px;
   padding: 20px;
@@ -378,6 +377,10 @@
   }
 
   /* Cards */
+  .arrow {
+    display: none;
+  }
+
   .card-left-pic {
     object-fit: contain;
     width: 138px;
@@ -421,7 +424,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  text--sub
+  
   .feed-friend-cards__pic-info {
     padding-top: 10px;
   }
@@ -429,13 +432,39 @@
   /* Comments */
   .comment-items {
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
 
   .comment-item:not(:last-child) {
     margin-right: 0;
+    height: 109px;
+    margin-bottom: 20px;
+  }
+
+  .comment-item:last-child {
+    display: none;
   }
 
   .comments-section .text-sub--2 {
     padding-bottom: 30px;
+  }
+
+  .comment-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 252px;
+    height: 38px;
+  }
+
+  .comments-section input[type="range"] {
+    display: none;
+  }
+
+  .comment-plant {
+    width: 77px;
+    height: 75px;
+    object-fit: contain;
+    bottom: 0;
+    right: 55px;
   }
 }
