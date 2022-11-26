@@ -373,7 +373,7 @@
     width: 105px;
     height: 217px;
     object-fit: contain;
-    top: -55px;
+    top: -15px;
     right: 45px;
   }
 
@@ -421,8 +421,21 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  text--sub
   .feed-friend-cards__pic-info {
     padding-top: 10px;
+  }
+
+  /* Comments */
+  .comment-items {
+    flex-wrap: wrap;
+  }
+
+  .comment-item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .comments-section .text-sub--2 {
+    padding-bottom: 30px;
   }
 }

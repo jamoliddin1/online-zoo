@@ -351,6 +351,7 @@ a {
   .text-title {
     font-size: 24px;
     margin: 10px 0;
+    padding-top: 45px;
   }
 
   /* Text sub and feed friend btn */
@@ -362,5 +363,10 @@ a {
   .text-sub--2 {
     font-size: 24px;
     padding-bottom: 20px;
+  }
+
+  /* Space */
+  .space {
+    padding: 50px 0;
   }
 }
