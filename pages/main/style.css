@@ -338,6 +338,29 @@
   right: 120px;
 }
 
+@media only screen and (max-width: 640px) {
+  /* Circle */
+  .circle-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 256px;
+  }
+
+  .circle-content__text {
+    font-size: 55px;
+  }
+
+  .watch-online__btn {
+    align-self: flex-end
+  }
+
+  .circle {
+    width: 237px;
+    height: 237px;
+    left: -25px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   /* Main banner */
   .main-banner__container {

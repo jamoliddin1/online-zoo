@@ -309,12 +309,19 @@ a {
   font-weight: 100;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 640px) {
   .container,
   .header-container {
-    width: 96%;
+    width: 92%;
   }
-  
+
+  /* Main banner bg */
+  .main-banner {
+    height: 373px;
+    /* margin-top: -3px;
+    padding-top: 42px; */
+  }
+
   /* Navigation bar */
   .main-header,
   .navbar {
@@ -332,7 +339,14 @@ a {
   .navbar .navbar__right-side {
     display: none;
   }
+}
 
+@media only screen and (max-width: 320px) {
+  .container,
+  .header-container {
+    width: 96%;
+  }
+  
   /* Main banner bg */
   .main-banner {
     height: 187px;
