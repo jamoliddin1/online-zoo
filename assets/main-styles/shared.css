@@ -436,4 +436,10 @@ a {
   .footer-item:nth-of-type(2) {
     order: 3;
   }
+
+  .footer-rights p {
+    font-size: 15px;
+    line-height: 120%;
+    margin: 12px 0;
+  }
 }
