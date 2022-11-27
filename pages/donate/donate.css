@@ -338,7 +338,7 @@ input[type="radio"] {
   }
 
   .feed-friend-item {
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .feed-friend-item h2 {
@@ -379,11 +379,57 @@ input[type="radio"] {
   }
 
   /* Amount */
-  .amont-text {
-    font-weight: 500
+  .amount-items {
+    margin-top: 10px;
+    border-top: 5px solid #404950;
+    border-right: 20px solid #404950;
+    border-bottom: 5px solid #404950;
+    border-left: 15px solid #404950;
+    padding: 0.5px;
+    border-radius: 1px;
   }
 
-  .amount-items {
-    margin-top: 10px
+  .amount-item:nth-of-type(1),
+  .amount-item:nth-of-type(2),
+  .amount-item:nth-of-type(3) {
+    display: none
+  }
+
+  .amount-btn {
+    bottom: -5px
+  }
+
+  .yellow-circle {
+    width: 5px;
+    height: 5px;
+  }
+
+  .yellow-circle.effect:before {
+    top: -5px;
+    left: -5px;
+    padding: 5px;
+    box-shadow: 0 0 0 0.7px rgb(254 144 19);
+  }
+
+  .yellow-circle.effect:after {
+    top: -3px;
+    left: -3px;
+    padding: 3px;
+    box-shadow: 0 0 0 0.7px rgb(254 144 19);
+  }
+
+  .amount-money {
+    top: 20px;
+    right: -10px;
+    font-size: 13px;
+  }
+
+  .amount-money i {
+    font-size: 10px
+  }
+
+  /* Bottom of dots */
+  .input-amount {
+    width: 180px
   }
 }
