@@ -339,6 +339,11 @@ a {
   .navbar .navbar__right-side {
     display: none;
   }
+
+  /* Footer */
+  .footer-form {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -396,10 +401,6 @@ a {
   
   .footer-items {
     flex-direction: column;
-  }
-  
-  .footer-form {
-    display: none;
   }
 
   .footer-item .logo-text {
