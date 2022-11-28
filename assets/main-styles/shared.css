@@ -318,7 +318,7 @@ a {
   /* Main banner bg */
   .main-banner {
     height: 373px;
-    /* margin-top: -3px; */
+    margin-top: -3px;
     padding-top: 50px;
   }
 
@@ -462,12 +462,17 @@ a {
   .main-footer {
     height: 300px;
   }
+
+  .main-footer .container {
+    margin-top: 30px;
+  }
   
   .footer-items {
     flex-direction: column;
   }
 
   .footer-item .logo-text {
+    border: none;
     width: 100%;
     font-size: 19px;
   }
@@ -494,6 +499,8 @@ a {
   }
 
   .footer-nav .navbar-links {
+    position: static;
+    margin: 0;
     gap: 10px;
   }
   

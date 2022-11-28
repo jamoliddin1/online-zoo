@@ -385,6 +385,34 @@
     right: 150px;
   }
 
+  /* Cards */
+  .card-section .outer-container {
+    position: relative;
+  }
+
+  .arrow {
+    display: none;
+    position: absolute;
+  }
+
+  .arrow
+
+  .card:nth-of-type(1),
+  .card:nth-of-type(2) {
+    margin-bottom: 130px;
+  }
+
+  .card:nth-of-type(4),
+  .card:nth-of-type(5) {
+    display: none;
+  }
+  
+  .card-picture {
+    width: 285px;
+    height: 332px;
+    object-fit: cover;
+  }
+
   /* Feed a friend */
   .feed-friend-card__arrow {
     display: none;
@@ -455,6 +483,10 @@
   }
 
   /* Cards */
+  .cards {
+    justify-content: center;
+  }
+  
   .arrow {
     display: none;
   }
