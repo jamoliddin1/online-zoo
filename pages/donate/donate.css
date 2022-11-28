@@ -311,6 +311,22 @@ input[type="radio"] {
   margin-top: 30px;
 }
 
+@media only screen and (max-width: 640px) {
+  .donate-banner {
+    height: 335px;
+  }
+
+  /* Donatation text whole */
+
+  .feed-friend__section {
+    padding: 30px 0;
+  }
+
+  .sec-title {
+    padding: 30px 0 25px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   /* Feed a friend section (donation) */
   .feed-friend__section {
@@ -326,10 +342,6 @@ input[type="radio"] {
 
   .donation-info__para {
     font-weight: 500
-  }
-
-  .sec-title {
-    padding: 30px 0 15px;
   }
 
   /* Feed a friend items */
