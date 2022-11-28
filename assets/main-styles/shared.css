@@ -74,6 +74,11 @@ a {
   padding-bottom: 50px;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .btn-1 {
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 25px;
@@ -174,6 +179,17 @@ a {
 
 .navbar-links:hover .active {
   color: #fff;
+}
+
+/* Burger menu */
+.burger-menu {
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+.state {
+  display: none;
 }
 
 .main-banner {
@@ -345,6 +361,14 @@ a {
   .main-header,
   .navbar {
     height: 34px;
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50; */
+  }
+
+  .state {
+    display: inline-block;
   }
 
   .logo-text {
