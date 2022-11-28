@@ -332,6 +332,15 @@ a {
     margin: 30px 0 20px;
   }
 
+  .text-sub--2 {
+    padding-bottom: 25px;
+  }
+
+  /* Btn */
+  .btn-1 {
+    margin-top: 25px;
+  }
+
   /* Navigation bar */
   .main-header,
   .navbar {
