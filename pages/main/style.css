@@ -341,7 +341,8 @@
 @media only screen and (max-width: 640px) {
   /* Main banner */
   .main-banner__container {
-    width: 92%;
+    position: relative;
+    width: 95%;
   }
   
   /* Circle */
@@ -356,13 +357,15 @@
   }
 
   .watch-online__btn {
-    align-self: flex-end
+    position: absolute;
+    left: 0;
+    align-self: flex-end;
   }
 
   .circle {
     width: 237px;
     height: 237px;
-    left: -25px;
+    left: -35px;
   }
 
   /* Story */
@@ -378,8 +381,8 @@
     width: 231px;
     height: 476px;
     object-fit: contain;
-    top: -15px;
-    right: 45px;
+    bottom: -30px;
+    right: 150px;
   }
 
   /* Feed a friend */
