@@ -325,11 +325,27 @@ button {
   font-weight: 100;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1000px) {
+  .main-header {
+    background-color: #111115;
+  }
+  
   .container,
   .header-container {
     width: 95%;
   }
+
+  .footer-right {
+    position: absolute;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  /* .container,
+  .header-container {
+    width: 95%;
+  } */
 
   /* Main banner bg */
   .main-banner {

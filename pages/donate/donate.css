@@ -311,6 +311,12 @@ input[type="radio"] {
   margin-top: 30px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .donate-banner {
+    height: 390px;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   .donate-banner {
     height: 335px;

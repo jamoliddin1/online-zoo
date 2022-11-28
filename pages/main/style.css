@@ -338,6 +338,12 @@
   right: 120px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .comment-item:last-child {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   /* Main banner */
   .main-banner__container {
