@@ -367,7 +367,7 @@ a {
   
   .main-footer .container {
     position: relative;
-    margin-top: -60px;
+    margin-top: -90px;
   }
   
   .footer-form {
@@ -384,13 +384,9 @@ a {
     font-size: 19px;
   }
 
-  .navbar-links {
-    margin-top: 30px;
-  }
-  
   .footer-rights {
     position: absolute;
-    bottom: -60px;
+    bottom: -93px;
   }
   
   /* Social */
@@ -412,6 +408,8 @@ a {
   .navbar-links {
     position: absolute;
     left: 0;
+    margin-top: 30px;
+    bottom: -100px;
   }
 
   .navbar-link:not(:last-child) {

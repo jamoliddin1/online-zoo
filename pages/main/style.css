@@ -476,8 +476,13 @@
   }
 
   /* Comments */
+  .comments-section .container {
+    text-align: center;
+  }
+  
   .comment-items {
     flex-direction: column;
+    text-align: left;
   }
 
   .comment-item {
@@ -503,6 +508,14 @@
 
   .comments-section input[type="range"] {
     display: none;
+  }
+
+  .comment-plant {
+    width: 150px;
+    height: 147px;
+    object-fit: contain;
+    bottom: 28px;
+    right: 99px;
   }
 }
 
